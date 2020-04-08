@@ -17,5 +17,5 @@
 
 | Name | Description |
 |------|-------------|
-| private\_ip | n/a |
+| private\_ip | Private IP of EC2 Instance |
 

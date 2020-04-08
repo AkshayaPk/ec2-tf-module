@@ -17,5 +17,6 @@ module "aws_instance_module" {
 }
 
 output "private_ip" {
+  description = "Private IP of EC2 Instance"
   value = module.aws_instance_module.private_ip
 }

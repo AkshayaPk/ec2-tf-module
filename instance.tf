@@ -11,5 +11,6 @@ resource "aws_instance" "web_server" {
 }
 
 output "private_ip" {
+  description = "Private IP of EC2 Instance"
   value = aws_instance.web_server.private_ip
 }
