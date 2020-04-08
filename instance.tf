@@ -9,3 +9,7 @@ resource "aws_instance" "web_server" {
     Name = "HelloWorld"
   }
 }
+
+output "private_ip" {
+  value = aws_instance.web_server.private_ip
+}

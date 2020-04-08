@@ -15,3 +15,7 @@ module "aws_instance_module" {
   vpc_security_group_ids = ["sg-084b7490916a4593d","sg-14ce3543"]
 
 }
+
+output "private_ip" {
+  value = module.aws_instance_module.private_ip
+}
