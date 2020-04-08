@@ -1,0 +1,17 @@
+driver:
+  name: terraform
+  root_module_directory: aws-instance-module
+
+provisioner:
+  name: terraform
+
+verifier:
+  name: terraform
+  groups:
+  - name: default
+
+platforms:
+  - name: terraform
+
+suites:
+  - name: default
