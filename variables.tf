@@ -1,15 +1,15 @@
 variable "instance_type" {
-  default     = "t2.micro"
+  default     = ""
   description = "Specify the instance type"
 }
 
 variable "ami_id" {
-  default     = "ami-09a5b0b7edf08843d"
+  default     = ""
   description = "Specify the ami Id"
 }
 
 variable "subnet_id" {
-  default     = "subnet-5358831e"
+  default     = ""
   description = "Specify the subnet Id"
 }
 
